@@ -1,0 +1,184 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--Bluecolor30);
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+.modal-overlay .services .container{
+    background-color: white;
+    height: 80vh;
+    width: 70%;
+    align-items: flex-start;
+    overflow: hidden;
+    margin:10vh auto;
+
+}
+.modal-overlay .services .container .copy-container{
+    overflow-y: auto;
+    height: 100%!important;
+    width: auto!important;
+    
+}
+.modal-overlay .services .container .img-container{
+    position: relative!important;
+    
+}
+.modal-overlay .services .container .copy-container .subtitle {
+padding-bottom: 0;
+    
+}
+.modal-overlay .services .container .copy-container::-webkit-scrollbar {
+    width: 5px;
+    background:#dddddd;
+  }
+  .modal-overlay .services .container .copy-container::-webkit-scrollbar-thumb {
+    background: var(--BluecolorDark);
+    border-radius: 15px;
+    transition: background ease-in-out 0.5s;
+  }
+  .modal-overlay .services .container .copy-container::-webkit-scrollbar-thumb:hover .modal-overlay .services .container .copy-container::-webkit-scrollbar {
+    background: var(--BluecolorDark);
+  }
+
+  .btn-close{
+    position:absolute;
+    top: 1%;
+    right: 1%;
+    background-color: var(--BluecolorDark);
+    border-radius: 7rem;
+    padding:0.8rem;
+}
+.btn-close img{
+    width: 0.8rem;
+    height: 0.7rem;
+    object-fit: contain;
+
+  }
+.modal-overlay .subtitle{
+    font-size: 1.6rem;
+}
+
+.modal-overlay .forminator-response-message{
+    position: absolute!important;
+    z-index: 9!important;
+}
+/* -------------------------------------
+       ANIMATIONS
+----------------------------------------*/
+
+ @keyframes animationIn{
+    from{
+        transform: translateY(-3000px)
+    }
+    50%{
+        transform: translateY(25px)
+    }
+    75%{
+        transform: translateY(10px)
+    }
+    90%{
+        transform: translateY(5px)
+    }
+    to{
+        transform: translateY(0)
+    }
+ }
+ 
+ @keyframes animationOut{
+    from{
+        transform: translateY(5px)
+        }
+    60%{
+        transform: translateY(10px)
+    }
+    75%{
+        transform: translateY(25px)
+    }
+    to{
+        transform: translateY(-3000px)
+    }
+ }
+
+ /*Listings*/
+ 
+ h3.address {
+    font-size: 1rem!important;
+    height: 5rem!important;
+ }
+ .elementor-shortcode .details p{
+    margin: 1rem 0!important;
+ }
+ .elementor-shortcode .details{
+    background: white!important;
+ }
+ .elementor-shortcode span.rent-price{
+    background: var(--Bluecolor);
+ }
+ .elementor-shortcode .listing-item{
+    box-shadow: 0px 0px 10px 0px #dcd5d5;
+    transition: all ease-in .5s;
+ }
+ .elementor-shortcode .listing-item:hover{
+    box-shadow: 0px 0px 10px 0px #d1d1d1;
+
+ }
+ .elementor-shortcode .main-listings-page .listing-item .btns a{
+    background: var(--Bluecolor)!important;
+ }
+ .elementor-shortcode .main-listings-page .listing-item .btns a:hover{
+    background: var(--Yellowcolor)!important;
+ }
+ .listing-filters{
+    background: var(--Bluecolor)!important;
+ }
+ .listing-filters select{
+    padding: 1rem 2.5rem!important;
+    border: none;
+    color: var(--BluecolorDark);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .5rem!important;
+ }
+
+ .listing-filters select[name='filters[cats]'],.listing-filters select[name='filters[dogs]'] {
+    visibility: hidden;
+    display:none
+ }
+
+ .listing-filters input[type="submit"]{
+    background:var(--Yellowcolor)!important;
+    padding: 1rem 2.5rem!important;
+    line-height: initial!important;
+    cursor: pointer;
+ }
+ .main-listings-page .list-img{
+     overflow: hidden;
+    }
+    .main-listings-page .listing-item img{
+     transition: all ease-in .1s;
+
+ }
+ .main-listings-page .listing-item:hover img{
+    transform: scale(1.1);
+ }
+ .listing-filters form{
+    gap: 1rem!important;
+    align-items: center!important;
+ }
+
+ @media only screen and (max-width: 426px){
+
+    .listing-filters select{
+        width: 100%!important;
+    }
+ }

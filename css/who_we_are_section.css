@@ -1,0 +1,53 @@
+.who_ > div:first-child{
+    background-color: var(--BluecolorDark);
+    
+}
+.container{
+    justify-content: space-evenly;
+}
+
+.who_contanierimg{
+    width: 70%;
+}
+
+.who_containertexts{
+    width:30%;
+    color: var(--WhiteText);
+}
+
+.who_containertexts h2, .who_containertexts p{
+    
+    color: var(--WhiteText);
+}
+
+.who_containertexts h2{
+    font-size:var(--titlesize); ;
+    margin-bottom: var(--marginBottomTittle);
+}
+
+.who_contanierimg{
+    width: 50%;
+    height:26em ;
+}
+
+.colorTextBlue{
+    color: var(--BluecolorDark)!important;
+}
+
+@media screen and (max-width:768px) {
+    .who_ .container.horizontal{
+        flex-direction: column;
+    } 
+
+    .who_containertexts {
+        width: 100%;
+    }
+
+    .who_contanierimg{
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        height: fit-content;
+    }
+}
+

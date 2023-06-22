@@ -1,0 +1,98 @@
+header{
+    color:var(--WhiteText);
+    padding: .5em;
+    background-color: var(--BluecolorDark);
+    position: relative;
+}
+
+.header__container--logo img{
+   max-height:6.05rem;
+}
+header menu{
+    background-color: var(--Yellowcolor);
+    padding: .5em var(--padding);
+    
+    
+}
+.menu-items{
+    gap: 2em;
+    display: flex;
+}
+.menu-items.active{
+    display: flex;
+    z-index: 9;
+}
+
+.menu-items a{
+    font-weight: bold;
+}
+menu img{
+    height: 33px;
+    width: auto;
+    margin-right: 1.5em;
+}
+
+.menu {
+    display: flex;
+    place-items: center;
+}
+
+menu a{
+    color: var(--BluecolorDark);
+    font-size:24px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 0;
+
+}
+@media screen and (max-width:1060px) {
+    .menu-items{
+        flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 5em;
+        padding: 2em 3em;
+        background: var(--BluecolorDark);
+        height: 100vh;
+        display: none;
+    }
+
+}
+@media screen and (max-width:426px) {
+    .header__container.horizontal{
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    header .menu{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__container--logo{
+        width: 80%;
+    }
+}
+
+.withSubItems:hover .subitem-container{
+    display: block;
+}
+.subitem-container{
+    display: none;
+    position: absolute;
+    background: white;
+    color: var(--BluecolorDark);
+    z-index: 9;
+    transition: all ease-in .5s;
+}
+.subitem-container .subitem{
+    padding: 1rem 1.5rem ; 
+}
+.subitem-container .subitem a{
+    color: var(--BluecolorDark);
+}
+.subitem-container .subitem:hover{
+    background-color: var(--Yellowcolor);
+}
