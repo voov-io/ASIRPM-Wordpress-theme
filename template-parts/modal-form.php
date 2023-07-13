@@ -8,7 +8,7 @@
                 }?>
                 </div>
                 <picture class="img-container center">
-                    <img src="<?php echo ImagesPath?>/img get free Rental analysis.webp" alt="Tenant Placement img">
+                    <img width="648" height="328" src="<?php echo ImagesPath?>/img get free Rental analysis.webp" alt="Tenant Placement img">
                     <button id="btnclose"  class="btn-close"> 
                         <img  src="<?php echo IconsPath?>/close.webp" alt="button close">       
                     </button>

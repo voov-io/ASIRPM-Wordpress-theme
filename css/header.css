@@ -1,3 +1,22 @@
+.sub-header{
+       background-color: black;
+       text-align: right;
+       margin-bottom: 0;
+}
+.sub-header .container{
+    padding: 1rem;
+}
+.sub-header .container a{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.sub-header .container a:last-child{
+    margin-left: 1rem;
+    border-left: 1px solid white;
+    padding-left: 1rem;
+}
+
 header{
     color:var(--WhiteText);
     padding: .5em;
@@ -74,6 +93,10 @@ menu a{
     .header__container--logo{
         width: 80%;
     }
+    .sub-header{
+
+        text-align: center;
+ }
 }
 
 .withSubItems:hover .subitem-container{

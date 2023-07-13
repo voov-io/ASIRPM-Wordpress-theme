@@ -17,14 +17,22 @@
     <meta name="description" content="Atlantic Sotheby’s International Realty is a full-service real estate brokerage and property management firm headquartered in Virginia Beach. We proudly serve the entire greater Hampton Roads area.">
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="Property Listings, Property Management,full-service real estate">
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link rel="preload" fetchpriority="high" as="image" href="<?php echo ImagesPath?>/img-background-main-section.webp" type="image/webp">
     <?php wp_head(); ?> 
 </head>
 <body>
+    <div class="sub-header">
+        <div class="container">
+            <a href="http://kwpm.appfolio.com/portal">OWNER LOGIN</a>
+            <a href="http://kwpm.appfolio.com/connect">TENANT LOGIN</a>
+        </div>
+    </div>
     <header class="header ">
         <div class="header__container horizontal maxwidth">
             <figure class="header__container--logo">
                     <a href="<?php echo home_url()?>">
-                        <img loading="lazy" src="<?php echo ImagesPath?>/Atlantic Sotheby's International Realty- white logo.webp" alt="Atlantic Sotheby's  Logo">
+                        <img width="326" height="108" loading="lazy" src="<?php echo ImagesPath?>/Atlantic Sotheby's International Realty- white logo.webp" alt="Atlantic Sotheby's  Logo">
                     </a>
             </figure>
             <nav class="flex gap">
@@ -49,7 +57,7 @@
                     </li>
                     <li><a href="<?php echo home_url()?>/agent-referral">Agent Referral</a></li>
                     <li class="withSubItems">
-                        <a href="<?php echo home_url()?>/faq">Faqs</a>
+                        <a href="<?php echo home_url()?>/faq">FAQs</a>
                         <ul class="subitem-container">
                             <li  class="subitem"><a href="<?php echo home_url()?>/faq/owner/">Owner</a></li>
                             <li  class="subitem"><a href="<?php echo home_url()?>/faq/tenant/">Tenant </a></li>  
@@ -58,7 +66,7 @@
                     <li>
                         <menu class="menu horizontal">
                             <a href="tel:+(757)777-9898">
-                                <img loading="lazy" src="<?php echo IconsPath?>/icon phone.svg" alt="icon phone">
+                                <img width="21" height="33"  loading="lazy" src="<?php echo IconsPath?>/icon phone.svg" alt="icon phone">
                                 <a href="tel:(757)777-9898">757.777.9898</a>        
                             </a>
                         </menu>

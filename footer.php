@@ -14,7 +14,7 @@
                }?>
             </div>
             <picture class="img-container center">
-                <img src="<?php echo ImagesPath?>/img get free Rental analysis.webp" alt="Tenant Placement img">
+                <img width="648" height="328" src="<?php echo ImagesPath?>/img get free Rental analysis.webp" alt="Tenant Placement img">
             </picture>
         </div>
     </section>
@@ -23,13 +23,13 @@
             <div class="footer__container-sub">
                 <figure class="container__img " loading="lazy">
                     <a href="<?php echo home_url()?>">
-                        <img loading="lazy" src="<?php echo ImagesPath?>/Atlantic Sotheby's International Realty- white logo.webp" alt="logo Atlantic Sotheby's International ">
+                        <img width="339" height="113" loading="lazy" src="<?php echo ImagesPath?>/Atlantic Sotheby's International Realty- white logo.webp" alt="logo Atlantic Sotheby's International ">
                     </a>  
                     <figcaption class="footer__container--copy">Atlantic Sotheby’s International Realty is committed to compliance with all federal, state, and local fair housing laws.  Atlantic Sotheby’s International Realty will not discriminate against any person because of race, color, religion, national origin, sex, familial status, disability, or any other specific classes protected by applicable laws.</figcaption>
                 </figure>
                 <figure class="container__img " loading="lazy">
                     <a href="<?php echo home_url()?>">
-                        <img loading="lazy" loading="lazy" src="<?php echo ImagesPath?>/best property management.webp" alt="logo best property management">
+                        <img width="144" height="114" loading="lazy" loading="lazy" src="<?php echo ImagesPath?>/best property management.webp" alt="logo best property management">
                     </a>
                     <figcaption>© All Rights Reserved. Privacy Policy</figcaption>
                 </figure>
@@ -47,10 +47,10 @@
             <div class="footer__container-sub">
                 <h2>Contact</h2>
                 <ul>
-                    <li><img class="icon" src="<?php echo IconsPath?>/phone.svg" alt=""><a href="tel:+757.777.9898">757.777.9898</a></li>
-                    <li><img class="icon" src="<?php echo IconsPath?>/email.svg" alt=""><a href="mailto:pm@atlanticsir.com">pm@atlanticsir.com</a></li>
+                    <li><img loading="lazy" width="20" height="20" class="icon" src="<?php echo IconsPath?>/phone.svg" alt=""><a href="tel:+757.777.9898">757.777.9898</a></li>
+                    <li><img loading="lazy" width="20" height="20" class="icon" src="<?php echo IconsPath?>/email.svg" alt=""><a href="mailto:pm@atlanticsir.com">pm@atlanticsir.com</a></li>
                     <li>
-                        <img class="icon" src="<?php echo IconsPath?>/map pin.svg" alt="">
+                        <img loading="lazy" width="20" height="20" class="icon" src="<?php echo IconsPath?>/map pin.svg" alt="">
                         <address>
                             <a href="https://www.google.com/maps/place/Atlantic+Sotheby's+International+Realty/@36.8308798,-76.1282047,15z/data=!4m6!3m5!1s0x89baeab9a0483a17:0xc20fe07347337446!8m2!3d36.8308798!4d-76.1282047!16s%2Fg%2F11g7_cdsg5?entry=ttu">
                                 4416 Expressway Drive, Virginia Beach, VA 23452
@@ -62,8 +62,8 @@
             <div class="footer__container-sub">
                 <h2>schedule</h2>
                 <ul>
-                    <li><img class="icon" src="<?php echo IconsPath?>/time.svg" alt=""><time>9 am</time> to <time>4 pm</time></li>
-                    <li><img class="icon" src="<?php echo IconsPath?>/calendar.svg" alt=""><time>Monday to Friday</time></li>
+                    <li><img loading="lazy" width="20" height="20" class="icon" src="<?php echo IconsPath?>/time.svg" alt=""><time>9 am</time> to <time>4 pm</time></li>
+                    <li><img loading="lazy" width="20" height="20" class="icon" src="<?php echo IconsPath?>/calendar.svg" alt=""><time>Monday to Friday</time></li>
                 </ul>
             </div>
             <div class="footer__container-sub">

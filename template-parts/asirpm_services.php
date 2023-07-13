@@ -14,7 +14,7 @@
         <div class="container maxwidth flex row-reverse">
             <article class="copy-container">
                 <h2 class="subtitle">Tenant Placement</h2>
-                <p class="copy">We provide photography, marketing and advertising, find your tenant, screen them, put them in your home and turn them over to the owner.</p>
+                <p class="copy">We provide photography, marketing/advertising, screening, leasing, move-in inspection, smoke detector inspection and then turn them over to you for management.</p>
                 <a href="#rentWithUs" class="btn yellow">Hire Us!</a>
             </article>
             <picture class="img-container">
